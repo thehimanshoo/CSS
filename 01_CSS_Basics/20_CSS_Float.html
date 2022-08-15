@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Float</title>
+  <style>
+   body{
+     font-family: "Comic Sans MS", sans-serif;
+     margin-bottom: 300px;
+   }
+    .left{
+      background-color: rgba(0,0,0,0.5);
+      width: 250px;
+      float: left;
+      border-radius: 15px 0 15px 0;
+      text-align: center;
+      color: white;
+    }
+    .right {
+      background-color: rgba(0,0,0,0.5);
+      width: 250px;
+      float: right;
+      border-radius: 0 15px 0 15px;
+      text-align: center;
+      color: white;
+    }
+      .clear{
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
+        padding: 5px;
+        clear: both;
+        border-radius: 15px 0 15px 0;
+        color: white;
+      }
+      .parent{
+        background-color: lightgrey;
+        border: 2px solid black;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+      }
+      .child{
+        background-color: blueviolet;
+        padding: 5px;
+        margin: 5px;
+        box-shadow: 0 0 10px black;
+        width: 200px;
+        display: inline-block;
+      }
+  </style>
+</head>
+<body>
+
+  <!-- Float Left -->
+
+  <div class="left">
+    <h1>Float Left</h1>
+  </div>
+
+  <!-- Float Right -->
+
+  <div class="right">
+    <h1>Float Right</h1>
+  </div>
+
+    <h1 class="clear">Clear me</h1>
+
+  <!--- DISPLAY INLINE-BLOCK -->
+
+  <div class="parent">
+    <div class="child">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis culpa, error facere numquam quam quasi reprehenderit! Corporis dolore eveniet molestiae nemo nulla quidem quos, repellat reprehenderit sit vel veniam, vero. Culpa dolor est laborum ratione voluptas! Doloribus, praesentium, quaerat! Aut cupiditate facilis maxime porro praesentium rem sed, sequi voluptatum.</p>
+    </div>
+
+    <div class="child">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis culpa, error facere numquam quam quasi reprehenderit! Corporis dolore eveniet molestiae nemo nulla quidem quos, repellat reprehenderit sit vel veniam, vero. Culpa dolor est laborum ratione voluptas! Doloribus, praesentium, quaerat! Aut cupiditate facilis maxime porro praesentium rem sed, sequi voluptatum.</p>
+    </div>
+
+    <div class="child">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis culpa, error facere numquam quam quasi reprehenderit! Corporis dolore eveniet molestiae nemo nulla quidem quos, repellat reprehenderit sit vel veniam, vero. Culpa dolor est laborum ratione voluptas! Doloribus, praesentium, quaerat! Aut cupiditate facilis maxime porro praesentium rem sed, sequi voluptatum.</p>
+    </div>
+
+    <div class="child">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis culpa, error facere numquam quam quasi reprehenderit! Corporis dolore eveniet molestiae nemo nulla quidem quos, repellat reprehenderit sit vel veniam, vero. Culpa dolor est laborum ratione voluptas! Doloribus, praesentium, quaerat! Aut cupiditate facilis maxime porro praesentium rem sed, sequi voluptatum.</p>
+    </div>
+  </div>
+
+</body>
+</html>

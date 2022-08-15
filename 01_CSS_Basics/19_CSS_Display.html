@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display</title>
+    <style>
+        body{
+            margin-bottom: 300px;
+        }
+        h3{
+            font-family: "Comic Sans MS", sans-serif;
+            background-color: lightsalmon;
+            padding: 5px;
+            margin: 5px;
+            display: inline;
+        }
+        p{
+            border-radius: 0 15px 0 15px;
+            padding: 5px;
+            margin: 10px;
+            background-color: lightskyblue;
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        span{
+            background-color: blue;
+            box-shadow: 0 0 8px black;
+            border-radius: 0 15px 0 15px;
+            font-family: "Comic Sans MS", sans-serif;
+            display: block;
+            color: white;
+            padding: 5px;
+            margin: 10px;
+
+        }
+        a{
+            background-color: rosybrown;
+            padding: 5px;
+            margin: 15px;
+            display: block;
+            box-shadow: 0 0 5px black;
+        }
+        form{
+            margin-top: 80px;
+            background-color: lightsalmon;
+        }
+        input{
+            padding: 5px;
+            margin: 10px;
+            display: block;
+        }
+        h1{
+          background-color: rebeccapurple;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 10px 0 10px 0;
+            display: ;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. Inline Elements:- <span>, <img>, <a>, <input>
+         2. Block Elements:- <h1>, <p>, <div>, html5 (<section>, <article>, <navbar>) -->
+
+  <!-- CSS DISPLAY (By using this property of CSS we can convert the inline elements
+       to block level elements and Block levels elements to inline elements..)
+
+     In CSS Display concept,there is some properties called:-
+  1. display: inline (Inline Element):- It means Whatever you are writing
+     will be display in a same line,Whether you write it in
+     in a same line or line by line.. It always display in a same line.
+
+  2. display: block (Block Element):- It means Whatever your content is,
+     Whether you Write in a same line or line by line it
+     always display line by line..
+
+  3. display: inline-block:- This properties also show their content in
+     a same line but with boxes..
+
+  4. display: none (Hide) :- This property of CSS used to hide some of content
+     which you don't want to show anyone or else you want to hide it from someone reach.
+
+     So, these are the properties which you need to about-->
+
+
+    <!-- DISPLAY INLINE-->
+
+    <div>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>JavaScript</h3>
+        <h3>JQuery</h3>
+        <h3>Bootstrap</h3>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing <span>1. Cum deserunt officiis quas! Ducimus eligendi esse ex explicabo impedit necessitatibus nemo perferendis provident ut vitae! Amet animi deleniti dolorem enim eum eveniet</span> <span>2. incidunt labore laboriosam magnam maxime minus modi nam pariatur perferendis quos, repudiandae soluta temporibus veniam, voluptas voluptatibus. At earum ex nihil obcaecati qui! </span> <span>3.Asperiores eius exercitationem nulla numquam omnis praesentium quis rerum tempora totam voluptate. Ab ad adipisci aspernatur commodi consectetur cum dicta distinctio eos eveniet,</span>impedit inventore ipsum iusto laudantium minima nam nesciunt officia optio, quaerat quia quis recusandae rem saepe sint, sit sunt tenetur ullam ut. Adipisci aliquam autem cum deserunt doloremque dolores ducimus eligendi eos ex exercitationem, expedita libero neque officiis quae ratione reiciendis repellendus sapiente similique tenetur, vero? Ab doloremque error in impedit inventore ipsum iusto laudantium ?</p>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+
+    <div>
+        <form>
+            <input type="text" placeholder="User Name">
+            <input type="password" placeholder="Password">
+            <input type="submit">
+        </form>
+    </div>
+
+    <h1>I am Hidden</h1>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+body{
+    background-image: url("../img/Girl Shooting Nature.jpg");
+}
+
+    **<!-- Example of Non-Transparent color -->**
+
+    1. <!-- Textual Color -->
+    Ex:-
+        The color which you write or Text for applying it for exaple, Red,Green,Blue,Yellow,White etc...
+
+    2.  <!-- RGB -->
+    Ex:-
+        After Textual Color "RGB" used to apply color.. It Stands for 'Red','Green','Blue'..
+        They have given more color options to apply. There are so many colors which you can't
+        remember their name as well so, in that case "RGB" Provides more color options.. You need
+        to put the colors value to apply that color.. Each color whether it is RED,Green,or Blue
+        they have value (0-255) and you need to put the value which means that you need to put any
+        numbers between (0-255) for all the Three and after the entering the value you'll see the
+        result..
+
+    3.  <!-- HEXA -->
+    Ex:-
+        Next one is "HEXA" Decimal.. There syntex is (rrggbb)..
+        Rest same as (RGB)..
+
+    4.  <!-- HSL (Hue,Saturation,Lightness)-->
+    Ex:-
+        Same as (RGB) except the Cordi nates it is given numbered in
+        (0-360) only given numbers are required not the written Digree
+        is required for the applying colors..
+
+
+    **<!-- Examples of Transparent Color --**
+
+    ==> ** In "CSS" "ugiui" There are Some Two ways are there to represent
+            Transparent Color.. One is (RGBA) and Other is (HSLA).. Here
+            "A" Stands for Alpha..
+
+    1.     <!-- RGBA #A Stands for Alpha-->
+    Ex:-
+            Same as (RGB) extra is Alpha.. Alpha values is in Between (0-1)
+            Where "0" Means Full Transparent or "1" Means Full Color..
+            We Can put values to (0.1 to 0.9) near about 1 indicates less Transparency..
+
+    2.    <!-- HSLA here also extra is Alpha -->
+    Ex:-
+           Same as "HSL" again "A" Stands for Alpha..
+            Their Syntex is "hsla(value of HSL degree + Alpha value in Between 0-1)"
+
+    font-family: "Comic Sans MS", sans-serif;
+    width: 800px;
+    margin: 150px auto;
+    color: white;
+}

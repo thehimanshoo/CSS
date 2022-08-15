@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sidebar</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .sidebar {
+            background: linear-gradient(45deg, black, red);
+            float: left;
+            font-family: "Comic Sans MS", sans-serif;
+            box-shadow: 10px 15px 20px;
+            width: 250px;
+            position: fixed;
+            height: 100%;
+            display: block;
+            padding: 10px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .sidebar a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+        .sidebar a:hover{
+            background: linear-gradient(180deg,red,black,red);
+            font-family: "Old English Text MT",sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Add Icon:- in this section copy the link from google site
+         called "fontawesome or fontawesomeCDN" and then copy that
+         link to the HTML wherever you want to paste and upon which
+         HTML you wanna show your ICON..-->
+
+    <div class="sidebar">
+        <i class="far fa-user-circle"></i>
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+        <a href="">JavaScript</a>
+        <a href="">JQuery</a>
+        <a href="">Mongo DB</a>
+        <a href="">AJAX</a>
+        <a href="">Bootstrap</a>
+    </div>
+</body>
+</html>

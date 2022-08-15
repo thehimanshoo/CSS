@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors 1</title>
+    <style>
+       #orange{
+            background-color: orange;
+            padding: 10px;
+        }
+       .blue{
+           background-color: lightskyblue;
+           font-family: "Comic Sans MS",sans-serif;
+           padding: 10px;
+           border-radius: 10px;
+           box-shadow: 5px 10px 20px black;
+       }
+    </style>
+</head>
+<body>
+
+    <!-- These are the Examples of "Body_Tag" When you write a command for the body tag than whatever
+         The styles you wrote that will apply on the whole content of that body tag but
+         When you give that same command from "Inside" of the any of the particular body Tag
+         Then that time the same styles will apply only for that particular body tag..-->
+    <h1 id="orange">Good Morning</h1>
+    <h1 id="orange">Good Afternoon</h1>
+    <h1 id="orange">Good Evening</h1>
+
+    <!-- Styles will apply but the Problem is of "Code_Duplication" that's why we use
+         "CLASS_TAG".. In "Class Tag" there is no limitation of duplication of same id
+         you can use it not only for one but for more than one... -->
+
+
+    <!-- These are the Example of "Class_Tag"-->
+
+    <h1 class="blue">Welcome to the world of Technology</h1>
+    <h1 class="blue">Welcome to the world of Technology</h1>
+    <h1 class="blue">Welcome to the world of Technology</h1>
+    <h1 class="blue">Welcome to the world of Technology</h1>
+
+    <!-- *NOTE:- While writing a style always first priority goes to "INLINE" Attribute
+          Means whatever you write a command for ur web if you use inline command for any
+          of your commanded tag, then first priority goes to inline command..
+          but still it is not recommended to use because in this command it becomes the
+          Mixture of both "HTML" and "CSS" and if you use more command for other changeg
+          then it gets complex to find where you write the HTML command or CSS command
+          at the time of recheck..
+          Always Second Priority goes to "ID_Tags".. It means if you use "ID_Tags" and
+         "Class_Tags" together for the same paragraph of something in which you want to
+          make some change then the second priority always goes to "ID_TAGS"..
+          At the very last "CLASS_TAGS" Comes, and if you use class tags to make some change
+          in the design of a particular portion or paragraph then you will have to always
+          Remember these things that always "LATEST" change will have the priority whether you
+          write the same and not deleted the previous command, but in process of make change
+          always the latest data will apply to that particular subjects. -->
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", sans-serif;
+            margin-bottom: 500px;
+        }
+        #bg-color{
+            background: linear-gradient(180deg,black,white,black);
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 0 20px;
+            border-radius: 15px;
+        }
+        #bg-image{
+            background-image: url("../img/image1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            font-size: 20px;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            margin: 20px;
+            width: 400px;
+            height: 300px;
+        }
+        #bg-repeat{
+            background: url("../img/twitter logo.png") repeat-x maroon scroll;
+            color: white;
+            font-size: 20px;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            margin: 20px;
+            width: 500px;
+            height: 350px;
+        }
+        #bg-position{
+            background: maroon url("../img/twitter logo.png") no-repeat top right;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            margin: 20px;
+            width: 500
+            height: 350px;
+        }
+        #bg-attachment {
+            background: url("../img/image1.jpg") fixed;
+            background-size: cover;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            margin: 20px;
+            height: 350px;
+        }
+
+        #bg-size{
+            background: url("../img/Bulb.jpg");
+            background-size: cover;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            margin: 20px;
+            width: 500px;
+            height: 300px;
+        }
+        #gradient{
+            box-shadow: 0 0 10px black;
+            width: 500px;
+            height: 300px;
+            background: linear-gradient(90deg,black,white,black);
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Background Color</h2>
+    <div id="bg-color">
+        <h1>I am with unique color background</h1>
+    </div>
+
+    <h2>Background Image</h2>
+    <div id="bg-image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad adipisci aperiam at atque, blanditiis commodi consectetur cumque dicta eius esse eum fugit hic impedit libero minima molestiae nihil nisi nobis obcaecati pariatur perspiciatis praesentium quae quaerat quas quasi quos repellendus sed tempora tenetur, unde ut veritatis voluptates! Aspernatur, veniam.</p>
+
+    </div>
+
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet aperiam consequatur, corporis dignissimos ea eaque exercitationem, harum illum impedit libero magni nihil nulla obcaecati, pariatur praesentium quam quia quibusdam quo similique. Adipisci debitis et expedita ipsam maxime non officia, officiis omnis optio quos ratione recusandae voluptates voluptatibus. Delectus dicta earum ex explicabo impedit in magnam nobis odio optio quis! Amet animi at atque consequuntur dolore eligendi iusto natus nesciunt nisi placeat praesentium quis ratione repudiandae velit veniam vitae, voluptatum.</p>
+
+    </div>
+
+    <h2>Background Position</h2>
+    <div id="bg-position">
+
+    </div>
+
+    <h2>Background Attachment</h2>
+    <div id="bg-attachment">
+
+    </div>
+
+    <h2>Background Size</h2>
+    <div id="bg-size">
+
+    </div>
+
+    <h2>Linear Gradient</h2>
+    <div id="gradient">
+
+    </div>
+
+</body>
+</html>

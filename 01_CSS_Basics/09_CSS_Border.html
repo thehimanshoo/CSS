@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Border</title>
+  <style>
+
+    body{
+      font-family: "Comic Sans MS",sans-serif;
+        margin-bottom: 500px;
+    }
+      h1{
+          text-align: center;
+        font-size: 45px;
+        background-image: url("../img/Girl Shooting Nature.jpg");
+        background-size: cover;
+        color: white;
+        padding: 50px;
+        margin: auto;
+        border: double 40px black;
+        border-radius: 50px 0 50px 0;
+          box-shadow: 10px 15px 20px black;
+      }
+      .special{
+          width: 800px;
+          font-size: 45px;
+          background-image: url("../img/image12.jpg");
+          background-size: cover;
+          color: white;
+          padding: 50px;
+          border: double 40px black;
+          border-radius: 50px 0 50px 0;
+          box-shadow:10px 15px 20px black;
+      }
+      #border-all{
+        background: url("../img/image2.jpg") scroll ;color: white;border: 10px solid black;
+          background-size: cover;
+          box-shadow: 10px 15px 20px black;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+      }
+      #border-single{
+          box-shadow: 10px 15px 20px black;
+          background: url("../img/image1.jpg") scroll;border-left: 15px solid black; color: white ;
+          background-size: cover;
+          text-align: center;
+          padding: 20px;
+          font-size: 30px;
+          width: 900px;
+          margin-left: 40px;
+          margin-top: 80px;
+
+      }
+    #border-double{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image2.jpg") scroll;border-left: 15px solid black; border-right: 15px solid black; color: white ;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-tripple{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image3.jpg") scroll;border-left: 15px solid black; border-right: 15px solid black;border-bottom: 15px solid black; color: white ;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-one-side-pixel{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image4.jpg") scroll;border-radius: 50px 0 0 0;color: white ;
+        border-radius: 70px 0 0 0;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-two-side-pixel{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image5.jpg") scroll;border-left: 15px solid black; border-right: 15px solid black; color: black;
+        border-radius: 70px 0 70px 0;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-all-pixel{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image4.jpg") scroll;border: 15px solid mediumpurple; color: lightsalmon ;
+        border-radius: 70px 70px 70px 70px;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-three-side-pixel{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/Girl Shooting Nature.jpg") scroll;border-radius: 0 60px 60px 60px; border-left: 15px solid black; border-bottom:15px solid black;border-right:15px solid black; color: maroon ;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-one-side-percentage{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image9.jpg") scroll;border-radius: 0 0 60% 0; color: white ;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-two-side-percentage{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image6.jpg") scroll;border-radius: 0 50% 0 50%; color:mediumpurple ;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-three-side-percentage{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image7.jpg") scroll;border-radius: 0 40% 60% 40%; color:maroon;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #border-Rounded-all-percentage{
+        box-shadow: 10px 15px 20px black;
+        background: url("../img/image8.jpg") scroll;border-radius: 60% 60% 60% 60%;border-left: 15px black;border-bottom: 15px black;border-right: 15px black;border-top: 15px black; color: white ;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 900px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #round{
+        color: white;
+        text-align: center;
+        background-color: maroon;
+        width: 400px;
+        height: 400px;
+        box-shadow: 10px 15px 20px black;
+        border-radius: 50%;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #round-with-border{
+        color: white;
+        text-align: center;
+        background-color: maroon;
+        border: 15px solid red;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        box-shadow: 10px 15px 20px black;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #square{
+        color: black;
+        text-align: center;
+        background-color: lightskyblue;
+        width: 400px;
+        height: 400px;
+        box-shadow: 10px 15px 20px black;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    #square-with-border{
+        color: black;
+        text-align: center;
+        background-color: lightskyblue;
+        border: 15px solid blue;
+        width: 400px;
+        height: 400px;
+        box-shadow: 10px 15px 20px black;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    .special{
+        border-top: 25px solid greenyellow;
+        border-bottom: 25px solid greenyellow;
+        border-left: 80px solid darkgreen;
+        border-right: 80px solid darkgreen;
+        width: 400px;
+        height: 300px;
+        border-radius: 50%;
+        box-shadow: 10px 15px 20px black;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    .square{
+        border-top: 25px solid greenyellow;
+        border-bottom: 25px solid greenyellow;
+        border-left: 80px solid darkgreen;
+        border-right: 80px solid darkgreen;
+        width: 400px;
+        height: 300px;
+        box-shadow: 10px 15px 20px black;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+  </style>
+</head>
+<body>
+
+    <h1>CSS Border</h1>
+
+       <div id="border-all">
+           <h2>Border All Sides</h2>
+       </div>
+
+    <div id="border-single">
+        <h2>Border Single Sides</h2>
+    </div>
+    <div id="border-double">
+        <h2>Border Double Sides</h2>
+    </div>
+
+    <div id="border-tripple">
+        <h2>Border Tripple Sides</h2>
+    </div>
+
+    <div id="border-Rounded-one-side-pixel">
+        <h2>Border Rounded One Sides Pixel</h2>
+    </div>
+
+    <div id="border-Rounded-two-side-pixel">
+        <h2>Border Rounded Two Sides Pixel</h2>
+    </div>
+
+    <div id="border-Rounded-three-side-pixel">
+        <h2>Border Rounded Three Sides Pixel</h2>
+    </div>
+
+    <div id="border-Rounded-all-pixel">
+        <h2>Border Rounded ALL Pixel</h2>
+    </div>
+
+    <div id="border-Rounded-one-side-percentage">
+        <h2>Border Rounded One Side Percentage</h2>
+    </div>
+
+    <div id="border-Rounded-two-side-percentage">
+        <h2>Border Rounded Two Sides Percentage</h2>
+    </div>
+
+    <div id="border-Rounded-three-side-percentage">
+        <h2>Border Rounded Three Sides Percentage</h2>
+    </div>
+
+    <div id="border-Rounded-all-percentage">
+        <h2>Border Rounded ALL Percentage</h2>
+    </div>
+
+    <div id="round">
+        <h2>Circle</h2>
+    </div>
+
+    <div id="round-with-border">
+        <h2>Circle With Border</h2>
+    </div>
+
+    <div id="square">
+        <h2>Square</h2>
+    </div>
+
+    <div id="square-with-border">
+        <h2>Square With Border</h2>
+    </div>
+
+    <h1>Circle Video Frame</h1>
+    <div class="special">
+        <iframe width="400" height="300" src="https://www.youtube-nocookie.com/embed/-ybtIniLPPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <h1>Square Video Frame</h1>
+    <div class="square">
+        <iframe width="400" height="300" src="https://www.youtube-nocookie.com/embed/-ybtIniLPPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+</body>
+</html>

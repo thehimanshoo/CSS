@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Tables</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        table, th, td{
+            border: 2px solid gray;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            background-color: maroon;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: lightsalmon;
+        }
+        tr:nth-child(odd){
+            background-color: coral;
+        }
+        th,tr,td{
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0 0 10px black;
+        }
+        td:hover{
+            background: linear-gradient(45deg, orangered,darkred);
+            color: white;
+            font-family: "Lucida Console";
+            font-size: 25px;
+            padding: 30px;
+    </style>
+</head>
+<body>
+
+
+    <table>
+        <tr>
+            <th>Emp Name</th>
+            <th>Designation</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>Alex Ben</td>
+            <td>Software Engineer</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>John Carter</td>
+            <td>Software Engineer</td>
+            <td>Wipro</td>
+        </tr>
+        <tr>
+            <td>Culter Nile</td>
+            <td>Software Engineer</td>
+            <td>Infosys</td>
+        </tr>
+        <tr>
+            <td>Tim Lorry</td>
+            <td>Software Engineer</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>John Macov</td>
+            <td>Software Engineer</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>Dim Caren</td>
+            <td>Software Engineer</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Daniel Victory</td>
+            <td>Software Engineer</td>
+            <td>Infosys</td>
+        </tr>
+        <tr>
+            <td>Mak Wenny</td>
+            <td>Software Engineer</td>
+            <td>Wipro</td>
+        </tr>
+    </table>
+
+</body>
+</html>

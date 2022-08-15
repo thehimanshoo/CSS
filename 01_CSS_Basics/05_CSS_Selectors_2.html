@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors 2</title>
+    <style>
+        input[type=text]{
+            background-color: blueviolet;
+        }
+        input[type=text]:focus{
+            background-color: yellow;
+            font-size: 18px;
+            transition: all 0.5s;
+        }
+        input[type=Password]{
+            background-color: limegreen;
+        }
+        input[type=Password]:hover{
+            background-color: yellow;
+            font-size: 18px;
+            transition: all 0.5s;
+        }
+        input[type=submit]{
+            background-color: orangered;
+        }
+        input[type=submit]:hover{
+            background-color: yellow;
+            font-size: 18px;
+            transition: all 0.5s;
+
+        }
+    </style>
+</head>
+<body>
+
+<form action="">
+    <label for="">User Name</label>
+    <input type="text">
+    <br>
+    <label for="">Password</label>
+    <input type="Password">
+    <br>
+    <input type="submit" value="submit">
+
+
+
+</form>
+
+</body>
+</html>
